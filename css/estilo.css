@@ -1,0 +1,111 @@
+body{
+	font-family: Arial;
+}
+.pai{
+	width: 100%;
+	height: 50vh;
+	background-color: white;
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.filho1{
+	width: 15%;
+	height: 40%;
+	background-color: rgb(7,82,0);
+	justify-content: center;
+}
+#logo{
+	margin-left: 25%;
+	margin-top: 10%;
+}
+.filho2{
+	width: 85%;
+	height: 40%;
+	background-color: rgb(7,82,0);
+}
+input{
+	color: rgb(7,82,0);
+	margin-top: 5vh;
+	margin-left: 80%;
+	background-color: white;
+	border-radius: 5px
+	width: 50vh;
+}
+input::placeholder{
+   color: rgb(7,82,0);
+}
+.filho3{
+	width: 100%;
+	height: 22vh;
+	background-color: rgb(225,225,225);
+}
+#banner{
+	margin-left: 35%;
+	margin-top: 2%;
+}
+.filho4{
+	width: 70%;
+	height: 60vh;
+	background-color: white;
+	color: blue;
+}
+h1{
+	margin-left: 8%;
+}
+#reitor{
+	margin-top: 1%;
+	margin-left: 5%;
+}
+#dir{
+	width: 55vh;
+	height: 15vh;
+	margin-left: -10vh;
+	margin-top: 3%;
+}
+#dire{
+	width: 55vh;
+	height: 25vh;
+	margin-left: -10vh;
+	margin-top: 3%;
+}
+.filho5{
+	width: 30%;
+	height: 60vh;
+	background-color: white;
+}
+footer{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(7,82,0);
+	margin-top: 12%;
+}
+@media(max-width: 760px){
+	.filho1, .filho5{
+		width: 100%;
+	}
+	.filho2, .filho3{
+		display: none;
+	}
+	#logo{
+		width: 15%;
+		margin-left: 40%;
+	}
+	#reitor{
+		width: 50vh;
+		height: auto;
+		align-self: center;
+	}
+	h1{
+		font-size: 200%;
+		width: 50vh;
+	}
+	#dir, #dire{
+		margin-left: 2%;
+	}
+	footer{
+		margin-top: 40%;
+		width: 100%;
+	}
+}
